@@ -232,3 +232,64 @@ body {
   font-weight: 400;
   padding: 0 18px;
 }
+/* <!-- SOLUTIONS --> */
+/* TOP */
+.solution__top {
+  background-image: url(../img/3.jpg);
+  text-align: center;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: cover;
+  padding: 5.7em 0;
+}
+.solution__top h3 {
+  color: #fff;
+  letter-spacing: 4px;
+  font-size: 40px;
+}
+.solution__top a {
+  font-size: 1em;
+  padding: 0.7em 2em;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7f67f8;
+  color: #fff;
+  transition: all 0.5s;
+}
+.solution__top a:hover {
+  background-color: #f97c69;
+}
+/* BOTTOM */
+.solution__bottom .sol__content h2 {
+  width: 65%;
+  font-size: 42px;
+  line-height: 1.2em;
+  margin: 0 auto;
+}
+.solution__bottom .sol__content p {
+  font-size: 15px;
+  color: #777;
+  margin: 1em 0 5em;
+}
+.solution__bottom .solution__number {
+  text-align: center;
+}
+.solution__bottom .solution__number p {
+  font-size: 3.5em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #f97c69;
+  margin: 0 0 0.2em 0;
+}
+.solution__bottom .solution__number h3 {
+  font-size: 20px;
+  color: #2c363e;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.solution__bottom .solution__number h6 {
+  font-size: 17px;
+  margin-top: 0.8em;
+  color: #777;
+}

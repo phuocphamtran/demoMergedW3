@@ -237,6 +237,74 @@
         </div>
       </div>
     </section>
+    <!-- SOLUTIONS -->
+    <section class="solutions">
+      <div class="solution__top">
+        <div class="container">
+          <div class="row">
+            <div class="col-9">
+              <h3>We Make the Best Business Solutions</h3>
+            </div>
+            <div class="col-3">
+              <a href="">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="solution__bottom section">
+        <div class="sol__content heading container">
+          <h2>We are always ahead Proffesional solutions for your business.</h2>
+          <p>Our results will fascinate you with the results we have</p>
+        </div>
+        <div class="solution__number">
+          <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <p class="num">1,546</p>
+                <h3>Satisfied Clients</h3>
+                <h6>Pure satisfaction</h6>
+              </div>
+              <div class="col-4">
+                <p class="num">14,345</p>
+                <h3>Successful Investments</h3>
+                <h6>Net income</h6>
+              </div>
+              <div class="col-4">
+                <p class="num">563</p>
+                <h3>Branches Worldwide</h3>
+                <h6>Highest level of credibility</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- OWL JS -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          576: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+    <!-- thu vien ho tro -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <!-- bootstrap 4.6 js -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -248,5 +316,11 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <!-- CountUp JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="./js/jquery.countup.js"></script>
+    <script>
+      $(".num").countUp();
+    </script>
   </body>
 </html>
