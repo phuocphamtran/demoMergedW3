@@ -29,8 +29,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- owl css -->
-    <!--  -->
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
     <!-- main css -->
     <link rel="stylesheet" href="./css/main.css" />
   </head>
@@ -38,7 +39,15 @@
   <body>
     <!-- HEADER -->
     <header>
-      <div class="header__top d-flex justify-content-between align-items-center container">
+      <div
+        class="
+          header__top
+          d-flex
+          justify-content-between
+          align-items-center
+          container-fluid
+        "
+      >
         <div class="header__left">
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
@@ -49,9 +58,185 @@
           <a href="tel:021365777"><i class="fa fa-phone"></i> +021 365 777</a>
         </div>
       </div>
+      <nav class="navMerged navbar navbar-expand-lg container">
+        <a class="navbar-brand text-center font-weight-bold" href="#">
+          <h1 class="mb-0">M<span>ERGED</span></h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarMerged"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMerged">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALLERY</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                PAGES
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Codes</a>
+                <a class="dropdown-item" href="#">About</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <!-- CAROUSEL -->
+    <section class="mergedCarousel">
+      <div class="carouselBanner">
+        <div id="carouselMerged" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselMerged"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselMerged" data-slide-to="1"></li>
+            <li data-target="#carouselMerged" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="container carousel-caption">
+                <div>
+                  <h3>THE BEST BUSINESS SUPPORT</h3>
+                  <p>
+                    Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices
+                    Viverra. Donec Nisl Dolor, Mollis Vel Libero Id, Tempor
+                    Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur.
+                    Maecenas Eleifend.
+                  </p>
+                  <button class="btn btn-about">About Us</button>
+                  <button
+                    class="btn btn-read"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container carousel-caption">
+                <div>
+                  <h3>SERVICES TO GROW YOUR BUSINESS</h3>
+                  <p>
+                    Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices
+                    Viverra. Donec Nisl Dolor, Mollis Vel Libero Id, Tempor
+                    Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur.
+                    Maecenas Eleifend.
+                  </p>
+                  <button
+                    class="btn btn-read"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    Read More
+                  </button>
+                  <button class="btn btn-about">About Us</button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="container carousel-caption">
+                <div>
+                  <h3>OPEN MINDS. CREATING FUTURE.</h3>
+                  <p>
+                    Etiam Vitae Augue Odio. Ut Laoreet Ipsum Vel Ultrices
+                    Viverra. Donec Nisl Dolor, Mollis Vel Libero Id, Tempor
+                    Cursus Lectus. Vestibulum Eu Ligula Et Pharetra Efficitur.
+                    Maecenas Eleifend.
+                  </p>
+                  <button class="btn btn-about">About Us</button>
+                  <button
+                    class="btn btn-read"
+                    data-toggle="modal"
+                    data-target="#myModal"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- WHAT YOU GET -->
+    <section class="Whuget section">
+      <div class="heading">
+        <h2>What you get</h2>
+        <p>
+          Our team provides consulting services focusing on the most critical
+          business issues.
+        </p>
+      </div>
+      <div class="container">
+        <div class="bord"></div>
+        <div class="row Whuget__row">
+          <div class="col-4">
+            <div class="get__content">
+              <i class="fas fa-th-large"></i>
+              <h4>Advanced Business</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="get__content get__content2">
+              <i class="fas fa-share-square"></i>
+              <h4>Free Updates</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="get__content">
+              <i class="fas fa-expand-arrows-alt"></i>
+              <h4>Looking Exellent</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- bootstrap 4.6 js -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
